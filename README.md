@@ -1,7 +1,7 @@
 # MIC - Utilities · repository QGIS
 
 Repository di distribuzione del plugin QGIS **MIC - Utilities** (versione
-**0.38.3**). Contiene solo il plugin installabile: `plugins.xml` e lo zip.
+**0.38.4**). Contiene solo il plugin installabile: `plugins.xml` e lo zip.
 
 ## Installazione da QGIS (una volta sola)
 
@@ -27,5 +27,6 @@ QGIS 3.22 o superiore; nel Python di QGIS `pandas`, `requests` e `matplotlib`
 ## Licenza
 
 Copyright (C) 2026 Matteo Collotti. GNU GPL versione 2 o successiva (file
-`LICENSE` nello zip). Le reti scaricate con *Rete da OSM* sono dati
+`LICENSE` nello zip). Il logo MIC Hub è un marchio di MIC Hub e non è coperto
+dalla GPL. Le reti scaricate con *Rete da OSM* sono dati
 © OpenStreetMap contributors (ODbL).

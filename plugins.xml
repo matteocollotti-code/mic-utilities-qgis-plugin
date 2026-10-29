@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="MIC - Utilities" version="0.38.3" plugin_id="road_network_analyzer">
+  <pyqgis_plugin name="MIC - Utilities" version="0.38.4" plugin_id="road_network_analyzer">
     <description><![CDATA[Analisi di reti stradali, trasporto pubblico e accessibilita: GTFS e GTFS-RT, PTAL, isocrone, accessibilita cumulativa, space syntax, walkability, flussi OD.]]></description>
     <about><![CDATA[Pannello "MIC - Utilities" (menu Vettore) con tre categorie. Trasporto pubblico: linee e velocita da GTFS, velocita effettive da GTFS-Realtime, generazione di GTFS da linee e fermate, PTAL (TfL) con profili orari. Rete stradale: lunghezze e incroci per tipologia, walkability, preparazione e diagnostica della rete, space syntax. Accessibilita: isocrone a piedi, in bici, in auto e in trasporto pubblico, accessibilita cumulativa e metriche di equita, scenari A/B, desire lines OD. Reti stradali scaricabili da OpenStreetMap (dati (c) OpenStreetMap contributors, ODbL). Include 9 algoritmi Processing. Richiede pandas, requests e matplotlib nel Python di QGIS. Licenza GNU GPL v2 o successiva.]]></about>
-    <version>0.38.3</version>
+    <version>0.38.4</version>
     <qgis_minimum_version>3.22</qgis_minimum_version>
     <qgis_maximum_version>3.99.0</qgis_maximum_version>
     <homepage><![CDATA[https://github.com/matteocollotti-code/mic-utilities-qgis-plugin]]></homepage>
-    <file_name>road_network_analyzer.0.38.3.zip</file_name>
-    <icon></icon>
+    <file_name>road_network_analyzer.0.38.4.zip</file_name>
+    <icon>https://raw.githubusercontent.com/matteocollotti-code/mic-utilities-qgis-plugin/main/icon.png</icon>
     <author_name><![CDATA[Matteo Collotti]]></author_name>
-    <download_url>https://raw.githubusercontent.com/matteocollotti-code/mic-utilities-qgis-plugin/main/road_network_analyzer.0.38.3.zip</download_url>
+    <download_url>https://raw.githubusercontent.com/matteocollotti-code/mic-utilities-qgis-plugin/main/road_network_analyzer.0.38.4.zip</download_url>
     <uploaded_by><![CDATA[Matteo Collotti]]></uploaded_by>
     <create_date>2026-10-29</create_date>
     <update_date>2026-10-29</update_date>
