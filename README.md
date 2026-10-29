@@ -1,7 +1,7 @@
 # MIC - Utilities · repository QGIS
 
 Repository di distribuzione del plugin QGIS **MIC - Utilities** (versione
-**0.40.0**). Contiene solo il plugin installabile: `plugins.xml` e lo zip.
+**0.41.0**). Contiene solo il plugin installabile: `plugins.xml` e lo zip.
 
 ## Installazione da QGIS (una volta sola)
 
