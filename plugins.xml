@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="MIC - Utilities" version="0.46.0" plugin_id="road_network_analyzer">
+  <pyqgis_plugin name="MIC - Utilities" version="0.46.1" plugin_id="road_network_analyzer">
     <description><![CDATA[(beta) Analisi di reti stradali, trasporto pubblico e accessibilita: GTFS e GTFS-RT, PTAL, isocrone, accessibilita cumulativa, space syntax, walkability, flussi OD.]]></description>
     <about><![CDATA[Pannello "MIC - Utilities" (menu Vettore) con tre categorie. Trasporto pubblico: linee e velocita da GTFS, velocita effettive da GTFS-Realtime, generazione di GTFS da linee e fermate, PTAL (TfL) con profili orari. Rete stradale: lunghezze e incroci reali per tipologia (ponti e tunnel esclusi), walkability, preparazione e diagnostica della rete, space syntax, percorso piu breve e piu veloce. Accessibilita: isocrone a piedi (anche con la pendenza da DEM), in bici, in auto (con il limite di ogni strada) e in trasporto pubblico, accessibilita cumulativa e metriche di equita, scenari A/B, desire lines OD, matrice tempi e distanze su strada con export Excel, citta dei 15 minuti con i servizi OSM. Reti stradali scaricabili da OpenStreetMap (dati (c) OpenStreetMap contributors, ODbL). Include 12 algoritmi Processing. Richiede pandas, requests e matplotlib nel Python di QGIS. Licenza GNU GPL v2 o successiva.]]></about>
-    <version>0.46.0</version>
+    <changelog><![CDATA[0.46.1 - Dopo un aggiornamento QGIS mostra una volta le novita della nuova versione (pulsante Novita, sempre disponibile anche dal menu Vettore -> MIC - Utilities -> Novita); il gestore plugin mostra le novita della versione nuova prima di aggiornare.
+0.46.0 - Pannello rifatto per i dock stretti: sta in 320-340 px senza scorrimento orizzontale (campi sotto l'etichetta quando serve, testi brevi con i dettagli nei suggerimenti, righe di pulsanti riorganizzate); schede con nomi brevi in italiano (Trasporti, Rete, Accessibilita; Crea GTFS, Analisi, Isocrone, 15 min) e nome completo nel suggerimento; sezioni richiudibili con la freccia (opzioni avanzate, walkability, preparazione rete, gap analysis, equita, scenari A/B, matrici OD), che riaprendosi mostrano solo i controlli del mezzo scelto; esiti dei calcoli in un riquadro verde o rosso con ogni avviso su una riga propria.
+0.45.0 - Nuove funzioni: isocrone in auto con il limite di ogni strada (campo, maxspeed OSM o tipo di strada) e velocita effettiva; pendenza da DEM per le isocrone a piedi (funzione di Tobler, un tempo per verso, ponti e gallerie esclusi dal terreno); matrice tempi e distanze su strada (piedi, bici, auto) con export Excel e linee OD; scheda Citta 15 minuti con servizi da OSM in 9 categorie, griglia o zone, quota di popolazione servita; in Processing mic:roadodmatrix e mic:fifteenminutes, mic:netisochrones con auto, DEM e sensi unici. Correzioni: PTAL (ai capolinea contano le partenze e non gli arrivi, linea contata una volta per i due versi, frequencies.txt, corse partite prima di mezzanotte); isocrone TP (coppie a tempo zero, corse del giorno prima); velocita GTFS (distanze in km o m, feed con piu cartelle, BOM e Latin-1, corse a frequenza e linee ad anello in tempo reale); rete (aggancio dei vertici per distanza, contatti a T fra livelli, sensi unici impliciti OSM in Processing, pendenza indipendente dai vertici, densita con aree sovrapposte); percorsi (aggancio per tratta, rotatorie e autostrade, tempi a piedi su marciapiedi, maxspeed in nodi o non valido); salvataggio (GeoPackage: aggiungi o sostituisci, simbologia Shapefile, CSV con i tipi, CRS personalizzati); gap e opportunita sui bordi delle celle; scaricamento del plugin con lo strumento mappa attivo.
+0.44.0 - Aggiornamenti da QGIS che funzionano per tutti: il plugin non e piu segnato come sperimentale (prima il gestore plugin nascondeva gli aggiornamenti a chi non aveva attivato i plugin sperimentali); al primo avvio aggiunge da solo il proprio repository al gestore plugin (anche se installato da zip); all'avvio avvisa quando c'e una versione nuova, con il pulsante Aggiorna.]]></changelog>
+    <version>0.46.1</version>
     <qgis_minimum_version>3.22</qgis_minimum_version>
     <qgis_maximum_version>3.99.0</qgis_maximum_version>
     <homepage><![CDATA[https://github.com/matteocollotti-code/mic-utilities-qgis-plugin]]></homepage>
-    <file_name>road_network_analyzer.0.46.0.zip</file_name>
+    <file_name>road_network_analyzer.0.46.1.zip</file_name>
     <icon>https://raw.githubusercontent.com/matteocollotti-code/mic-utilities-qgis-plugin/main/icon.png</icon>
     <author_name><![CDATA[Matteo Collotti]]></author_name>
-    <download_url>https://raw.githubusercontent.com/matteocollotti-code/mic-utilities-qgis-plugin/main/road_network_analyzer.0.46.0.zip</download_url>
+    <download_url>https://raw.githubusercontent.com/matteocollotti-code/mic-utilities-qgis-plugin/main/road_network_analyzer.0.46.1.zip</download_url>
     <uploaded_by><![CDATA[Matteo Collotti]]></uploaded_by>
-    <create_date>2026-11-09</create_date>
-    <update_date>2026-11-09</update_date>
+    <create_date>2026-11-10</create_date>
+    <update_date>2026-11-10</update_date>
     <experimental>False</experimental>
     <deprecated>False</deprecated>
     <tracker><![CDATA[https://github.com/matteocollotti-code/mic-utilities-qgis-plugin]]></tracker>
