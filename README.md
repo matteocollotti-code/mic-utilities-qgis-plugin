@@ -1,7 +1,7 @@
-# MIC - Utilities · repository QGIS
+# Utilities · repository QGIS
 
-Repository di distribuzione del plugin QGIS **MIC - Utilities** (versione
-**0.53.2**). Contiene solo il plugin installabile: `plugins.xml` e lo zip.
+Repository di distribuzione del plugin QGIS **Utilities** (versione
+**0.54.0**). Contiene solo il plugin installabile: `plugins.xml` e lo zip.
 
 ## Installazione da QGIS (una volta sola)
 
@@ -13,8 +13,8 @@ Repository di distribuzione del plugin QGIS **MIC - Utilities** (versione
    ```
 
    poi **OK**.
-3. Nella scheda **Tutti** cerca **MIC - Utilities** e premi **Installa plugin**.
-4. Apri il pannello da **Vettore → MIC - Utilities → MIC - Utilities**.
+3. Nella scheda **Tutti** cerca **Utilities** e premi **Installa plugin**.
+4. Apri il pannello da **Vettore → Utilities → Utilities**.
 
 Quando esce una nuova versione QGIS la segnala all'avvio e nella scheda
 **Aggiornabili**, dove il dettaglio del plugin mostra le novità; dopo
