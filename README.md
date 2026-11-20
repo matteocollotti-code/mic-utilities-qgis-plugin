@@ -1,7 +1,7 @@
 # Utilities · repository QGIS
 
 Repository di distribuzione del plugin QGIS **Utilities** (versione
-**0.54.0**). Contiene solo il plugin installabile: `plugins.xml` e lo zip.
+**0.55.0**). Contiene solo il plugin installabile: `plugins.xml` e lo zip.
 
 ## Installazione da QGIS (una volta sola)
 
